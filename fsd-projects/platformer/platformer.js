@@ -30,18 +30,33 @@ $(function () {
     // toggleGrid();
 
 
-    // TODO 2 - Create Platforms
+    // TODO 2 - Create Platforms - minimum of 5 
 
+   
+    createPlatform(1350, 400, 50, 50, "red");
+   
 
+    // -- NEED to provide COLORS for these platforms! -- 
+    
+    createPlatform(200, 500, 100, 20, "blue")
+    createPlatform(800, 300, 100, 20, "yellow")
+    createPlatform(500, 600, 100, 20, "pink")
+    createPlatform(200, 700, 100, 20, "black")
+    createPlatform(500, 400, 100, 20, "red")
+    
 
 
     // TODO 3 - Create Collectables
-
+    createCollectable("steve", 1350, 170, 0.5, 0.7);
+    createCollectable("diamond", 200, 170, 0.5, 0.7);
+    createCollectable("grace", 800, 170, 0.5, 0.7);
 
 
     
     // TODO 4 - Create Cannons
-
+    createCannon("top", 500, 1000);
+    createCannon("right", 200, 700);
+    createCannon("bottom", 700, 700);
 
     
     
