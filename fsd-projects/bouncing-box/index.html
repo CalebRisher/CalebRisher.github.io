@@ -86,12 +86,12 @@
         function update() {
         moveBoxTo(positionX); // Moves box to right edge
         positionX = positionX + speed;
-        speed += 3;
         if (positionX > boardWidth) {
         speed = speed * -1
         }
        else if (positionX < 0) {
         speed *= -1;
+
         
         }
           
